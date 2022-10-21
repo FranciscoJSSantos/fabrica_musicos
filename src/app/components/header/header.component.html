@@ -21,31 +21,31 @@
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
 
         <div class="flex flex-shrink-0 items-center">
-          <a routerLink="/inicio"><img class="block h-12 w-auto lg:hidden" src="../../../assets/imagem_logo.png"
+          <a routerLink="/home"><img class="block h-12 w-auto lg:hidden" src="../../../assets/imagem_logo.png"
               alt="Your Company"></a>
 
-          <a routerLink="/inicio"> <img class="hidden h-12 w-auto lg:block" src="./../../../assets/imagem_logo.png"
+          <a routerLink="/home"> <img class="hidden h-12 w-auto lg:block" src="./../../../assets/imagem_logo.png"
               alt="Your Company"></a>
         </div>
 
         <div class="hidden sm:ml-6 sm:block">
           <div class="mt-1 flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a routerLink="/inicio"
+            <a routerLink="/home"
               class="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               aria-current="page">Início</a>
 
-            <a href="/instrumentos"
+            <a routerLink="/instruments"
               class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Instrumentos</a>
 
-            <a routerLink="/planos"
+            <a routerLink="/plans"
               class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Planos</a>
 
-            <a routerLink="/sobre"
+            <a routerLink="/about"
               class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Onde
               fica?</a>
 
-            <a href="/contato"
+            <a routerLink="/contact"
               class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contato</a>
           </div>
         </div>
@@ -58,21 +58,21 @@
   <div class="sm:hidden" id="mobile-menu">
     <div [hidden]="!menuIcon" class="space-y-1 px-2 pt-2 pb-3">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-      <a routerLink="/inicio"
+      <a routerLink="/home"
         class="text-gray-300 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
         aria-current="page">Início</a>
 
-      <a routerLink="/instrumentos"
+      <a routerLink="/instruments"
         class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Instrumentos</a>
 
-      <a routerLink="/planos"
+      <a routerLink="/plans"
         class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Planos</a>
 
-      <a routerLink="/sobre"
+      <a routerLink="/about"
         class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Onde
         fica?</a>
 
-      <a href="/contato"
+      <a routerLink="/contact"
         class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contato</a>
     </div>
   </div>
