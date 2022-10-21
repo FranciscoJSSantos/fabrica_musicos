@@ -8,29 +8,29 @@ const routes: Routes = [
       import('../app/components/home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'home',
+    path: 'inicio',
     loadChildren: () =>
       import('../app/components/home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'plans',
+    path: 'planos',
     loadChildren: () =>
       import('../app/components/plans/plans.module').then((m) => m.PlansModule),
   },
   {
-    path: 'about',
+    path: 'sobre',
     loadChildren: () =>
       import('../app/components/about/about.module').then((m) => m.AboutModule),
   },
   {
-    path: 'instruments',
+    path: 'instrumentos',
     loadChildren: () =>
       import('../app/components/instruments/instruments.module').then(
         (m) => m.InstrumentsModule
       ),
   },
   {
-    path: 'contact',
+    path: 'contato',
     loadChildren: () =>
       import('../app/components/contact/contact.module').then(
         (m) => m.ContactModule
