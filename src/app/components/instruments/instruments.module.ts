@@ -6,6 +6,6 @@ import { InstrumentsComponent } from './instruments.component';
 @NgModule({
   imports: [CommonModule],
   declarations: [InstrumentsComponent],
-  exports: [InstrumentsRoutingModule],
+  exports: [InstrumentsComponent, InstrumentsRoutingModule],
 })
 export class InstrumentsModule {}

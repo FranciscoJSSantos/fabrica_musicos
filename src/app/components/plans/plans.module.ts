@@ -6,6 +6,6 @@ import { PlansComponent } from './plans.component';
 @NgModule({
   imports: [CommonModule],
   declarations: [PlansComponent],
-  exports: [PlansRoutingModule],
+  exports: [PlansComponent, PlansRoutingModule],
 })
 export class PlansModule {}
