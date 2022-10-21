@@ -1,7 +1,7 @@
 /* tslint:disable:no-unused-variable */
+import { DebugElement } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
 
 import { ContactComponent } from './contact.component';
 
@@ -11,9 +11,8 @@ describe('ContactComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ContactComponent ]
-    })
-    .compileComponents();
+      declarations: [ContactComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
