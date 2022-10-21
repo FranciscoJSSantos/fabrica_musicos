@@ -11,16 +11,19 @@ const routes: Routes = [
     path: 'inicio',
     loadChildren: () =>
       import('../app/components/home/home.module').then((m) => m.HomeModule),
+    pathMatch: 'full',
   },
   {
     path: 'planos',
     loadChildren: () =>
       import('../app/components/plans/plans.module').then((m) => m.PlansModule),
+    pathMatch: 'full',
   },
   {
     path: 'sobre',
     loadChildren: () =>
       import('../app/components/about/about.module').then((m) => m.AboutModule),
+    pathMatch: 'full',
   },
   {
     path: 'instrumentos',
@@ -28,6 +31,7 @@ const routes: Routes = [
       import('../app/components/instruments/instruments.module').then(
         (m) => m.InstrumentsModule
       ),
+    pathMatch: 'full',
   },
   {
     path: 'contato',
@@ -35,6 +39,7 @@ const routes: Routes = [
       import('../app/components/contact/contact.module').then(
         (m) => m.ContactModule
       ),
+    pathMatch: 'full',
   },
 ];
 
