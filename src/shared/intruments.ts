@@ -45,7 +45,7 @@ export const INTRUMENTS: Instrument[] = [
     picture: '/assets/baixo_acustico.jpg',
   },
   { id: 17, name: 'Guitarra', picture: '/assets/guitarra.jpg' },
-  { id: 18, name: 'Umkulele', picture: '/assets/umkulele.jpg' },
+  { id: 18, name: 'Ukulele', picture: '/assets/Ukulele.jpg' },
   { id: 19, name: 'Bateria', picture: '/assets/bateria.jpg' },
   { id: 20, name: 'Piano', picture: '/assets/piano.jpg' },
   { id: 21, name: 'Teclado', picture: '/assets/teclado.jpg' },
