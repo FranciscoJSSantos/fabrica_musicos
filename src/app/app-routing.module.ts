@@ -39,7 +39,6 @@ const routes: Routes = [
       import('../app/components/contact/contact.module').then(
         (m) => m.ContactModule
       ),
-    pathMatch: 'full',
   },
 ];
 
