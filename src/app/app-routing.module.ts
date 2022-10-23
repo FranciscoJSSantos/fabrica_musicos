@@ -26,7 +26,7 @@ const routes: Routes = [
     pathMatch: 'full',
   },
   {
-  path: 'instrumentos',
+    path: 'instrumentos',
     loadChildren: () =>
       import('../app/components/instruments/instruments.module').then(
         (m) => m.InstrumentsModule
@@ -39,7 +39,6 @@ const routes: Routes = [
       import('../app/components/contact/contact.module').then(
         (m) => m.ContactModule
       ),
-    pathMatch: 'full',
   },
 ];
 
